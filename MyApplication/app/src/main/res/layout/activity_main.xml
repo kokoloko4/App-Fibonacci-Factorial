@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@drawable/fibonacci"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:text= "Ingrese número"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/num" />
+
+    <Button
+        android:id="@+id/calcularf"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="¡Calcular Fibonacci!" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/histoFibo"/>
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/factorial"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:layout_width="160dp"
+        android:layout_height="50dp"
+        android:text= "Ingrese número"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/facto"/>
+
+    <Button
+        android:id="@+id/calcularfacto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="¡Calcular Factorial!" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/histoFacto"/>
+
+</LinearLayout>
